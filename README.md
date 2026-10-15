@@ -1,4 +1,4 @@
-# Closest-Pair-of-Points
+# Minimum Distance of Points in 2D Plane
 Implemented a divide-and-conquer algorithm to find the minimum distance between any two points in a 2D plane
 
 ## Overview
