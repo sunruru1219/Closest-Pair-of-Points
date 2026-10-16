@@ -1,36 +1,39 @@
-# Minimum Distance of Points in 2D Plane
-Implemented a divide-and-conquer algorithm to find the minimum distance between any two points in a 2D plane
+# Closest Pairs of Points
+This repository contains a C++ solution for the classic **Closest Pair of Points** problem,
+implemented using the **Divide and Conquer** algorithm.
+
+## Background
+This project was originally developed as an assignment for the **Algorithms** course at **National Yang Ming Chiao Tung University (NYCU)** during the Fall 2023 semester.
 
 ## Overview
 
-A C++ implementation of the closest pair of points problem in a 2D plane. Given a set of points, the program calculates the minimum Euclidean distance between any two points.
+A C++ implementation of the closest pair of points problem in a 2D plane.
+Given a set of points, the program calculates the minimum Euclidean distance between any two distinct points.
 
 ## Algorithm
 
 The program uses a divide-and-conquer approach:
 
-Divides the points into two halves based on their x-coordinates.
+* **Divides:** Sort the points based on their x-coordinates and divide them into two equal halves.
 
-Recursively finds the minimum distance in each half.
+* **Conquer:** Recursively find the minimum distance in each half.
 
-Examines points near the dividing line to find a potentially smaller distance.
+* **Combine:** Examine points near the dividing line (the strip) to find a potentially smaller distance.
 
 ## Input Format
 
-The first line contains an integer T, the number of test cases.
+The first line contains an integer `T`, representing the number of test cases.
 
 For each test case:
 
-An integer n, the number of points.
+* An integer `n`, representing the number of points.
 
-n pairs of coordinates (x, y).
+* `n` lines follow, each containing a pair of coordinates `(x, y)`.
 
-## Output
+## Output Format
 
-For each test case, outputs the minimum Euclidean distance between two points.
+For each testcase, outputs the minimum Euclidean distance between two points.
 
 ## Requirements
 
-C++ compiler
-
-Standard C++ libraries
+A C++ compiler supporting standard C++11 or higher
