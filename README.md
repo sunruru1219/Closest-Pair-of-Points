@@ -32,7 +32,7 @@ For each test case:
 
 ## Output Format
 
-For each testcase, outputs the minimum Euclidean distance between two points.
+For each test case, output the minimum Euclidean distance between any two distinct points.
 
 ## Requirements
 
