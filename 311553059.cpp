@@ -1,6 +1,3 @@
-// biker problem.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include <math.h>
 #include <vector>
@@ -106,9 +103,7 @@ int main()
         loc_x.push_back(x);
         loc_y.push_back(y);
         for (int j = 0; j < n-1; ++j) {
-            // int x, y;
             cin >> x >> y;
-            //count += 1;
             loc_x.push_back(x);
             loc_y.push_back(y);
             
